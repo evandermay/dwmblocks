@@ -1,6 +1,8 @@
 static const Block blocks[] = {
         /*Icon*/        /*Command*/             /*Update Interval*/     /*Update Signal*/
         {" ",   "cat /tmp/recordingicon 2>/dev/null",   0,                      9},
+        {" ", "~/.local/bin/dwm_cmus.sh",      1,                      0},
+        {" ", "~/.local/bin/cmus_stats",      1,                      0},
         {"  ", "~/.local/bin/blevel",      0,                      11},
         {" ",   "~/.local/bin/volume",        0,                      10},
         {" ",  "~/.local/bin/battery",       5,                      0},
